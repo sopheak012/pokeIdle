@@ -1,0 +1,1210 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.7,
+    "weight": 6.9
+  },
+  {
+    "name": "Ivysaur",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 13.0
+  },
+  {
+    "name": "Venusaur",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 3,
+    "height": 2.0,
+    "weight": 100.0
+  },
+  {
+    "name": "Charmander",
+    "type": ["Fire"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 8.5
+  },
+  {
+    "name": "Charmeleon",
+    "type": ["Fire"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.1,
+    "weight": 19.0
+  },
+  {
+    "name": "Charizard",
+    "type": ["Fire", "Flying"],
+    "habitat": "Mountain",
+    "evolutionStage": 3,
+    "height": 1.7,
+    "weight": 90.5
+  },
+  {
+    "name": "Squirtle",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 9.0
+  },
+  {
+    "name": "Wartortle",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 22.5
+  },
+  {
+    "name": "Blastoise",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 3,
+    "height": 1.6,
+    "weight": 85.5
+  },
+  {
+    "name": "Caterpie",
+    "type": ["Bug"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 2.9
+  },
+  {
+    "name": "Metapod",
+    "type": ["Bug"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 0.7,
+    "weight": 9.9
+  },
+  {
+    "name": "Butterfree",
+    "type": ["Bug", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 3,
+    "height": 1.1,
+    "weight": 32.0
+  },
+  {
+    "name": "Weedle",
+    "type": ["Bug", "Poison"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 3.2
+  },
+  {
+    "name": "Kakuna",
+    "type": ["Bug", "Poison"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 0.6,
+    "weight": 10.0
+  },
+  {
+    "name": "Beedrill",
+    "type": ["Bug", "Poison"],
+    "habitat": "Forest",
+    "evolutionStage": 3,
+    "height": 1.0,
+    "weight": 29.5
+  },
+  {
+    "name": "Pidgey",
+    "type": ["Normal", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 1.8
+  },
+  {
+    "name": "Pidgeotto",
+    "type": ["Normal", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 1.1,
+    "weight": 30.0
+  },
+  {
+    "name": "Pidgeot",
+    "type": ["Normal", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 3,
+    "height": 1.5,
+    "weight": 39.5
+  },
+  {
+    "name": "Rattata",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 3.5
+  },
+  {
+    "name": "Raticate",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 0.7,
+    "weight": 18.5
+  },
+  {
+    "name": "Spearow",
+    "type": ["Normal", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 2.0
+  },
+  {
+    "name": "Fearow",
+    "type": ["Normal", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 1.2,
+    "weight": 38.0
+  },
+  {
+    "name": "Ekans",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 2.0,
+    "weight": 6.9
+  },
+  {
+    "name": "Arbok",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 3.5,
+    "weight": 65.0
+  },
+  {
+    "name": "Pikachu",
+    "type": ["Electric"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 6.0
+  },
+  {
+    "name": "Raichu",
+    "type": ["Electric"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 0.8,
+    "weight": 30.0
+  },
+  {
+    "name": "Sandshrew",
+    "type": ["Ground"],
+    "habitat": "Desert",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 12.0
+  },
+  {
+    "name": "Sandslash",
+    "type": ["Ground"],
+    "habitat": "Desert",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 29.5
+  },
+  {
+    "name": "Nidoran♀",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 7.0
+  },
+  {
+    "name": "Nidorina",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 0.8,
+    "weight": 20.0
+  },
+  {
+    "name": "Nidoqueen",
+    "type": ["Poison", "Ground"],
+    "habitat": "Grassland",
+    "evolutionStage": 3,
+    "height": 1.3,
+    "weight": 60.0
+  },
+  {
+    "name": "Nidoran♂",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 9.0
+  },
+  {
+    "name": "Nidorino",
+    "type": ["Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 0.9,
+    "weight": 19.5
+  },
+  {
+    "name": "Nidoking",
+    "type": ["Poison", "Ground"],
+    "habitat": "Grassland",
+    "evolutionStage": 3,
+    "height": 1.4,
+    "weight": 62.0
+  },
+  {
+    "name": "Clefairy",
+    "type": ["Fairy"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 7.5
+  },
+  {
+    "name": "Clefable",
+    "type": ["Fairy"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.3,
+    "weight": 40.0
+  },
+  {
+    "name": "Vulpix",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 9.9
+  },
+  {
+    "name": "Ninetales",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.1,
+    "weight": 19.9
+  },
+  {
+    "name": "Jigglypuff",
+    "type": ["Normal", "Fairy"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 5.5
+  },
+  {
+    "name": "Wigglytuff",
+    "type": ["Normal", "Fairy"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 12.0
+  },
+  {
+    "name": "Zubat",
+    "type": ["Poison", "Flying"],
+    "habitat": "Cave",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 7.5
+  },
+  {
+    "name": "Golbat",
+    "type": ["Poison", "Flying"],
+    "habitat": "Cave",
+    "evolutionStage": 2,
+    "height": 1.6,
+    "weight": 55.0
+  },
+  {
+    "name": "Oddish",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 5.4
+  },
+  {
+    "name": "Gloom",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 0.8,
+    "weight": 8.6
+  },
+  {
+    "name": "Vileplume",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 3,
+    "height": 1.2,
+    "weight": 18.6
+  },
+  {
+    "name": "Paras",
+    "type": ["Bug", "Grass"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 5.4
+  },
+  {
+    "name": "Parasect",
+    "type": ["Bug", "Grass"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 29.5
+  },
+  {
+    "name": "Venonat",
+    "type": ["Bug", "Poison"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 1.0,
+    "weight": 30.0
+  },
+  {
+    "name": "Venomoth",
+    "type": ["Bug", "Poison"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 1.5,
+    "weight": 12.5
+  },
+  {
+    "name": "Diglett",
+    "type": ["Ground"],
+    "habitat": "Desert",
+    "evolutionStage": 1,
+    "height": 0.2,
+    "weight": 0.8
+  },
+  {
+    "name": "Dugtrio",
+    "type": ["Ground"],
+    "habitat": "Desert",
+    "evolutionStage": 2,
+    "height": 0.7,
+    "weight": 33.3
+  },
+  {
+    "name": "Meowth",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 4.2
+  },
+  {
+    "name": "Persian",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 32.0
+  },
+  {
+    "name": "Psyduck",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 19.6
+  },
+  {
+    "name": "Golduck",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.7,
+    "weight": 76.6
+  },
+  {
+    "name": "Mankey",
+    "type": ["Fighting"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 28.0
+  },
+  {
+    "name": "Primeape",
+    "type": ["Fighting"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 32.0
+  },
+  {
+    "name": "Growlithe",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.7,
+    "weight": 19.0
+  },
+  {
+    "name": "Arcanine",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.9,
+    "weight": 155.0
+  },
+  {
+    "name": "Poliwag",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 12.4
+  },
+  {
+    "name": "Poliwhirl",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 20.0
+  },
+  {
+    "name": "Poliwrath",
+    "type": ["Water", "Fighting"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 3,
+    "height": 1.3,
+    "weight": 54.0
+  },
+  {
+    "name": "Abra",
+    "type": ["Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.9,
+    "weight": 19.5
+  },
+  {
+    "name": "Kadabra",
+    "type": ["Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.3,
+    "weight": 56.5
+  },
+  {
+    "name": "Alakazam",
+    "type": ["Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 3,
+    "height": 1.5,
+    "weight": 48.0
+  },
+  {
+    "name": "Machop",
+    "type": ["Fighting"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 19.5
+  },
+  {
+    "name": "Machoke",
+    "type": ["Fighting"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.5,
+    "weight": 70.5
+  },
+  {
+    "name": "Machamp",
+    "type": ["Fighting"],
+    "habitat": "Mountain",
+    "evolutionStage": 3,
+    "height": 1.6,
+    "weight": 130.0
+  },
+  {
+    "name": "Bellsprout",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.7,
+    "weight": 4.0
+  },
+  {
+    "name": "Weepinbell",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 6.4
+  },
+  {
+    "name": "Victreebel",
+    "type": ["Grass", "Poison"],
+    "habitat": "Grassland",
+    "evolutionStage": 3,
+    "height": 1.7,
+    "weight": 15.5
+  },
+  {
+    "name": "Tentacool",
+    "type": ["Water", "Poison"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.9,
+    "weight": 45.5
+  },
+  {
+    "name": "Tentacruel",
+    "type": ["Water", "Poison"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.6,
+    "weight": 55.0
+  },
+  {
+    "name": "Geodude",
+    "type": ["Rock", "Ground"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 20.0
+  },
+  {
+    "name": "Graveler",
+    "type": ["Rock", "Ground"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 105.0
+  },
+  {
+    "name": "Golem",
+    "type": ["Rock", "Ground"],
+    "habitat": "Mountain",
+    "evolutionStage": 3,
+    "height": 1.4,
+    "weight": 300.0
+  },
+  {
+    "name": "Ponyta",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 1.0,
+    "weight": 30.0
+  },
+  {
+    "name": "Rapidash",
+    "type": ["Fire"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.7,
+    "weight": 95.0
+  },
+  {
+    "name": "Slowpoke",
+    "type": ["Water", "Psychic"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 1.2,
+    "weight": 36.0
+  },
+  {
+    "name": "Slowbro",
+    "type": ["Water", "Psychic"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.6,
+    "weight": 78.5
+  },
+  {
+    "name": "Magnemite",
+    "type": ["Electric", "Steel"],
+    "habitat": "Power Plant",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 6.0
+  },
+  {
+    "name": "Magneton",
+    "type": ["Electric", "Steel"],
+    "habitat": "Power Plant",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 60.0
+  },
+  {
+    "name": "Farfetch'd",
+    "type": ["Normal", "Flying"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 15.0
+  },
+  {
+    "name": "Doduo",
+    "type": ["Normal", "Flying"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 1.4,
+    "weight": 39.2
+  },
+  {
+    "name": "Dodrio",
+    "type": ["Normal", "Flying"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.8,
+    "weight": 85.2
+  },
+  {
+    "name": "Seel",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 1.1,
+    "weight": 90.0
+  },
+  {
+    "name": "Dewgong",
+    "type": ["Water", "Ice"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.7,
+    "weight": 120.0
+  },
+  {
+    "name": "Grimer",
+    "type": ["Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.9,
+    "weight": 30.0
+  },
+  {
+    "name": "Muk",
+    "type": ["Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.2,
+    "weight": 30.0
+  },
+  {
+    "name": "Shellder",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 4.0
+  },
+  {
+    "name": "Cloyster",
+    "type": ["Water", "Ice"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.5,
+    "weight": 132.5
+  },
+  {
+    "name": "Gastly",
+    "type": ["Ghost", "Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 1.3,
+    "weight": 0.1
+  },
+  {
+    "name": "Haunter",
+    "type": ["Ghost", "Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.6,
+    "weight": 0.1
+  },
+  {
+    "name": "Gengar",
+    "type": ["Ghost", "Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 3,
+    "height": 1.5,
+    "weight": 40.5
+  },
+  {
+    "name": "Onix",
+    "type": ["Rock", "Ground"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 8.8,
+    "weight": 210.0
+  },
+  {
+    "name": "Drowzee",
+    "type": ["Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 1.0,
+    "weight": 32.4
+  },
+  {
+    "name": "Hypno",
+    "type": ["Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.6,
+    "weight": 76.6
+  },
+  {
+    "name": "Krabby",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 6.5
+  },
+  {
+    "name": "Kingler",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.3,
+    "weight": 60.0
+  },
+  {
+    "name": "Voltorb",
+    "type": ["Electric"],
+    "habitat": "Power Plant",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 10.4
+  },
+  {
+    "name": "Electrode",
+    "type": ["Electric"],
+    "habitat": "Power Plant",
+    "evolutionStage": 2,
+    "height": 1.2,
+    "weight": 66.6
+  },
+  {
+    "name": "Exeggcute",
+    "type": ["Grass", "Psychic"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 2.5
+  },
+  {
+    "name": "Exeggutor",
+    "type": ["Grass", "Psychic"],
+    "habitat": "Forest",
+    "evolutionStage": 2,
+    "height": 2.0,
+    "weight": 120.0
+  },
+  {
+    "name": "Cubone",
+    "type": ["Ground"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 6.5
+  },
+  {
+    "name": "Marowak",
+    "type": ["Ground"],
+    "habitat": "Grassland",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 45.0
+  },
+  {
+    "name": "Hitmonlee",
+    "type": ["Fighting"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.5,
+    "weight": 49.8
+  },
+  {
+    "name": "Hitmonchan",
+    "type": ["Fighting"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.4,
+    "weight": 50.2
+  },
+  {
+    "name": "Lickitung",
+    "type": ["Normal"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 1.2,
+    "weight": 65.5
+  },
+  {
+    "name": "Koffing",
+    "type": ["Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 1.0
+  },
+  {
+    "name": "Weezing",
+    "type": ["Poison"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 1.2,
+    "weight": 9.5
+  },
+  {
+    "name": "Rhyhorn",
+    "type": ["Ground", "Rock"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 1.0,
+    "weight": 115.0
+  },
+  {
+    "name": "Rhydon",
+    "type": ["Ground", "Rock"],
+    "habitat": "Mountain",
+    "evolutionStage": 2,
+    "height": 1.9,
+    "weight": 120.0
+  },
+  {
+    "name": "Chansey",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 1.1,
+    "weight": 34.6
+  },
+  {
+    "name": "Tangela",
+    "type": ["Grass"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 1.0,
+    "weight": 35.0
+  },
+  {
+    "name": "Kangaskhan",
+    "type": ["Normal"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 2.2,
+    "weight": 80.0
+  },
+  {
+    "name": "Horsea",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 8.0
+  },
+  {
+    "name": "Seadra",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.2,
+    "weight": 25.0
+  },
+  {
+    "name": "Goldeen",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 0.6,
+    "weight": 15.0
+  },
+  {
+    "name": "Seaking",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.3,
+    "weight": 39.0
+  },
+  {
+    "name": "Staryu",
+    "type": ["Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 34.5
+  },
+  {
+    "name": "Starmie",
+    "type": ["Water", "Psychic"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.1,
+    "weight": 80.0
+  },
+  {
+    "name": "Mr. Mime",
+    "type": ["Psychic", "Fairy"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 1.3,
+    "weight": 54.5
+  },
+  {
+    "name": "Scyther",
+    "type": ["Bug", "Flying"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 1.5,
+    "weight": 56.0
+  },
+  {
+    "name": "Jynx",
+    "type": ["Ice", "Psychic"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 1.4,
+    "weight": 40.6
+  },
+  {
+    "name": "Electabuzz",
+    "type": ["Electric"],
+    "habitat": "Power Plant",
+    "evolutionStage": 1,
+    "height": 1.1,
+    "weight": 30.0
+  },
+  {
+    "name": "Magmar",
+    "type": ["Fire"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 1.3,
+    "weight": 44.5
+  },
+  {
+    "name": "Pinsir",
+    "type": ["Bug"],
+    "habitat": "Forest",
+    "evolutionStage": 1,
+    "height": 1.5,
+    "weight": 55.0
+  },
+  {
+    "name": "Tauros",
+    "type": ["Normal"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 1.4,
+    "weight": 88.4
+  },
+  {
+    "name": "Magikarp",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 0.9,
+    "weight": 10.0
+  },
+  {
+    "name": "Gyarados",
+    "type": ["Water", "Flying"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 6.5,
+    "weight": 235.0
+  },
+  {
+    "name": "Lapras",
+    "type": ["Water", "Ice"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 2.5,
+    "weight": 220.0
+  },
+  {
+    "name": "Ditto",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 4.0
+  },
+  {
+    "name": "Eevee",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.3,
+    "weight": 6.5
+  },
+  {
+    "name": "Vaporeon",
+    "type": ["Water"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 29.0
+  },
+  {
+    "name": "Jolteon",
+    "type": ["Electric"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 0.8,
+    "weight": 24.5
+  },
+  {
+    "name": "Flareon",
+    "type": ["Fire"],
+    "habitat": "Urban",
+    "evolutionStage": 2,
+    "height": 0.9,
+    "weight": 25.0
+  },
+  {
+    "name": "Porygon",
+    "type": ["Normal"],
+    "habitat": "Urban",
+    "evolutionStage": 1,
+    "height": 0.8,
+    "weight": 36.5
+  },
+  {
+    "name": "Omanyte",
+    "type": ["Rock", "Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 7.5
+  },
+  {
+    "name": "Omastar",
+    "type": ["Rock", "Water"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.0,
+    "weight": 35.0
+  },
+  {
+    "name": "Kabuto",
+    "type": ["Rock", "Water"],
+    "habitat": "Sea",
+    "evolutionStage": 1,
+    "height": 0.5,
+    "weight": 11.5
+  },
+  {
+    "name": "Kabutops",
+    "type": ["Rock", "Water"],
+    "habitat": "Sea",
+    "evolutionStage": 2,
+    "height": 1.3,
+    "weight": 40.5
+  },
+  {
+    "name": "Aerodactyl",
+    "type": ["Rock", "Flying"],
+    "habitat": "Mountain",
+    "evolutionStage": 1,
+    "height": 1.8,
+    "weight": 59.0
+  },
+  {
+    "name": "Snorlax",
+    "type": ["Normal"],
+    "habitat": "Grassland",
+    "evolutionStage": 1,
+    "height": 2.1,
+    "weight": 460.0
+  },
+  {
+    "name": "Articuno",
+    "type": ["Ice", "Flying"],
+    "habitat": "Legendary",
+    "evolutionStage": 1,
+    "height": 1.7,
+    "weight": 55.4
+  },
+  {
+    "name": "Zapdos",
+    "type": ["Electric", "Flying"],
+    "habitat": "Legendary",
+    "evolutionStage": 1,
+    "height": 1.6,
+    "weight": 52.6
+  },
+  {
+    "name": "Moltres",
+    "type": ["Fire", "Flying"],
+    "habitat": "Legendary",
+    "evolutionStage": 1,
+    "height": 2.0,
+    "weight": 60.0
+  },
+  {
+    "name": "Dratini",
+    "type": ["Dragon"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 1,
+    "height": 1.8,
+    "weight": 3.3
+  },
+  {
+    "name": "Dragonair",
+    "type": ["Dragon"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 2,
+    "height": 4.0,
+    "weight": 16.5
+  },
+  {
+    "name": "Dragonite",
+    "type": ["Dragon", "Flying"],
+    "habitat": "Waters-Edge",
+    "evolutionStage": 3,
+    "height": 2.2,
+    "weight": 210.0
+  },
+  {
+    "name": "Mewtwo",
+    "type": ["Psychic"],
+    "habitat": "Legendary",
+    "evolutionStage": 1,
+    "height": 2.0,
+    "weight": 122.0
+  },
+  {
+    "name": "Mew",
+    "type": ["Psychic"],
+    "habitat": "Legendary",
+    "evolutionStage": 1,
+    "height": 0.4,
+    "weight": 4.0
+  }
+]

@@ -1,10 +1,14 @@
 import { useState, useEffect, useRef } from "react";
+import { useDispatch } from "react-redux";
+import { addGuessedPokemon } from "../Redux/Slices/pokemonSlice";
 import PokemonData from "../data/gen1.json";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [invalidInput, setInvalidInput] = useState(false); // State for invalid input
   const searchBarRef = useRef(null);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -32,7 +36,16 @@ const SearchBar = () => {
       pokemon.name.toLowerCase().includes(value.toLowerCase())
     );
 
-    setSuggestions(filteredSuggestions);
+    // Remove duplicates from suggestions
+    const uniqueSuggestions = filteredSuggestions.filter(
+      (pokemon, index) =>
+        filteredSuggestions.findIndex((p) => p.name === pokemon.name) === index
+    );
+
+    setSuggestions(uniqueSuggestions);
+
+    // Reset invalid input state when user types
+    setInvalidInput(false);
   };
 
   const handleSuggestionClick = (suggestion) => {
@@ -40,8 +53,32 @@ const SearchBar = () => {
     setSuggestions([]);
   };
 
+  const handleGuess = (event) => {
+    event.preventDefault();
+    if (searchTerm) {
+      // Check if the entered value matches any Pokémon name
+      const isValidPokemon = PokemonData.some(
+        (pokemon) => pokemon.name.toLowerCase() === searchTerm.toLowerCase()
+      );
+
+      if (isValidPokemon) {
+        dispatch(addGuessedPokemon(searchTerm));
+        setSearchTerm("");
+      } else {
+        // Display an error message or handle invalid input
+        setInvalidInput(true); // Set invalid input state to true
+        setSearchTerm(""); // Clear search term
+      }
+    }
+  };
+
   return (
-    <form className="max-w-md mx-auto pt-64">
+    <form className="max-w-md mx-auto pt-64" onSubmit={handleGuess}>
+      {invalidInput && ( // Conditional rendering for invalid input message
+        <p className="text-red-500 mb-2 text-sm text-center">
+          Invalid Pokémon name
+        </p>
+      )}
       <label
         htmlFor="default-guess"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

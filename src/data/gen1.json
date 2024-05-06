@@ -5,23 +5,26 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.7,
-    "weight": 6.9
+    "weight": 6.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
   },
   {
     "name": "Ivysaur",
     "type": ["Grass", "Poison"],
     "habitat": "Grassland",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 13.0
+    "height": 1,
+    "weight": 13,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
   },
   {
     "name": "Venusaur",
     "type": ["Grass", "Poison"],
     "habitat": "Grassland",
     "evolutionStage": 3,
-    "height": 2.0,
-    "weight": 100.0
+    "height": 2,
+    "weight": 100,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
   },
   {
     "name": "Charmander",
@@ -29,7 +32,8 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 8.5
+    "weight": 8.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
   },
   {
     "name": "Charmeleon",
@@ -37,7 +41,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.1,
-    "weight": 19.0
+    "weight": 19,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
   },
   {
     "name": "Charizard",
@@ -45,7 +50,8 @@
     "habitat": "Mountain",
     "evolutionStage": 3,
     "height": 1.7,
-    "weight": 90.5
+    "weight": 90.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
   },
   {
     "name": "Squirtle",
@@ -53,15 +59,17 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 9.0
+    "weight": 9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
   },
   {
     "name": "Wartortle",
     "type": ["Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 22.5
+    "height": 1,
+    "weight": 22.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
   },
   {
     "name": "Blastoise",
@@ -69,7 +77,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 3,
     "height": 1.6,
-    "weight": 85.5
+    "weight": 85.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
   },
   {
     "name": "Caterpie",
@@ -77,7 +86,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 2.9
+    "weight": 2.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
   },
   {
     "name": "Metapod",
@@ -85,7 +95,8 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 0.7,
-    "weight": 9.9
+    "weight": 9.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
   },
   {
     "name": "Butterfree",
@@ -93,7 +104,8 @@
     "habitat": "Forest",
     "evolutionStage": 3,
     "height": 1.1,
-    "weight": 32.0
+    "weight": 32,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
   },
   {
     "name": "Weedle",
@@ -101,7 +113,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 3.2
+    "weight": 3.2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
   },
   {
     "name": "Kakuna",
@@ -109,15 +122,17 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 0.6,
-    "weight": 10.0
+    "weight": 10,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
   },
   {
     "name": "Beedrill",
     "type": ["Bug", "Poison"],
     "habitat": "Forest",
     "evolutionStage": 3,
-    "height": 1.0,
-    "weight": 29.5
+    "height": 1,
+    "weight": 29.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
   },
   {
     "name": "Pidgey",
@@ -125,7 +140,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 1.8
+    "weight": 1.8,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
   },
   {
     "name": "Pidgeotto",
@@ -133,7 +149,8 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 1.1,
-    "weight": 30.0
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
   },
   {
     "name": "Pidgeot",
@@ -141,7 +158,8 @@
     "habitat": "Forest",
     "evolutionStage": 3,
     "height": 1.5,
-    "weight": 39.5
+    "weight": 39.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
   },
   {
     "name": "Rattata",
@@ -149,7 +167,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 3.5
+    "weight": 3.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
   },
   {
     "name": "Raticate",
@@ -157,7 +176,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 0.7,
-    "weight": 18.5
+    "weight": 18.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
   },
   {
     "name": "Spearow",
@@ -165,7 +185,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 2.0
+    "weight": 2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
   },
   {
     "name": "Fearow",
@@ -173,15 +194,17 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 1.2,
-    "weight": 38.0
+    "weight": 38,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
   },
   {
     "name": "Ekans",
     "type": ["Poison"],
     "habitat": "Grassland",
     "evolutionStage": 1,
-    "height": 2.0,
-    "weight": 6.9
+    "height": 2,
+    "weight": 6.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
   },
   {
     "name": "Arbok",
@@ -189,7 +212,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 3.5,
-    "weight": 65.0
+    "weight": 65,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
   },
   {
     "name": "Pikachu",
@@ -197,7 +221,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 6.0
+    "weight": 6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
   },
   {
     "name": "Raichu",
@@ -205,7 +230,8 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 0.8,
-    "weight": 30.0
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
   },
   {
     "name": "Sandshrew",
@@ -213,15 +239,17 @@
     "habitat": "Desert",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 12.0
+    "weight": 12,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
   },
   {
     "name": "Sandslash",
     "type": ["Ground"],
     "habitat": "Desert",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 29.5
+    "height": 1,
+    "weight": 29.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
   },
   {
     "name": "Nidoran♀",
@@ -229,7 +257,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 7.0
+    "weight": 7,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
   },
   {
     "name": "Nidorina",
@@ -237,7 +266,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 0.8,
-    "weight": 20.0
+    "weight": 20,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
   },
   {
     "name": "Nidoqueen",
@@ -245,7 +275,8 @@
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.3,
-    "weight": 60.0
+    "weight": 60,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
   },
   {
     "name": "Nidoran♂",
@@ -253,7 +284,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 9.0
+    "weight": 9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
   },
   {
     "name": "Nidorino",
@@ -261,7 +293,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 0.9,
-    "weight": 19.5
+    "weight": 19.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
   },
   {
     "name": "Nidoking",
@@ -269,7 +302,8 @@
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.4,
-    "weight": 62.0
+    "weight": 62,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
   },
   {
     "name": "Clefairy",
@@ -277,7 +311,8 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 7.5
+    "weight": 7.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
   },
   {
     "name": "Clefable",
@@ -285,7 +320,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.3,
-    "weight": 40.0
+    "weight": 40,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
   },
   {
     "name": "Vulpix",
@@ -293,7 +329,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 9.9
+    "weight": 9.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
   },
   {
     "name": "Ninetales",
@@ -301,7 +338,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1.1,
-    "weight": 19.9
+    "weight": 19.9,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
   },
   {
     "name": "Jigglypuff",
@@ -309,15 +347,17 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 5.5
+    "weight": 5.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
   },
   {
     "name": "Wigglytuff",
     "type": ["Normal", "Fairy"],
     "habitat": "Grassland",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 12.0
+    "height": 1,
+    "weight": 12,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
   },
   {
     "name": "Zubat",
@@ -325,7 +365,8 @@
     "habitat": "Cave",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 7.5
+    "weight": 7.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
   },
   {
     "name": "Golbat",
@@ -333,7 +374,8 @@
     "habitat": "Cave",
     "evolutionStage": 2,
     "height": 1.6,
-    "weight": 55.0
+    "weight": 55,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
   },
   {
     "name": "Oddish",
@@ -341,7 +383,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 5.4
+    "weight": 5.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
   },
   {
     "name": "Gloom",
@@ -349,7 +392,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 0.8,
-    "weight": 8.6
+    "weight": 8.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
   },
   {
     "name": "Vileplume",
@@ -357,7 +401,8 @@
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.2,
-    "weight": 18.6
+    "weight": 18.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
   },
   {
     "name": "Paras",
@@ -365,23 +410,26 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 5.4
+    "weight": 5.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
   },
   {
     "name": "Parasect",
     "type": ["Bug", "Grass"],
     "habitat": "Forest",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 29.5
+    "height": 1,
+    "weight": 29.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
   },
   {
     "name": "Venonat",
     "type": ["Bug", "Poison"],
     "habitat": "Forest",
     "evolutionStage": 1,
-    "height": 1.0,
-    "weight": 30.0
+    "height": 1,
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
   },
   {
     "name": "Venomoth",
@@ -389,7 +437,8 @@
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 1.5,
-    "weight": 12.5
+    "weight": 12.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
   },
   {
     "name": "Diglett",
@@ -397,7 +446,8 @@
     "habitat": "Desert",
     "evolutionStage": 1,
     "height": 0.2,
-    "weight": 0.8
+    "weight": 0.8,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
   },
   {
     "name": "Dugtrio",
@@ -405,7 +455,8 @@
     "habitat": "Desert",
     "evolutionStage": 2,
     "height": 0.7,
-    "weight": 33.3
+    "weight": 33.3,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
   },
   {
     "name": "Meowth",
@@ -413,15 +464,17 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 4.2
+    "weight": 4.2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
   },
   {
     "name": "Persian",
     "type": ["Normal"],
     "habitat": "Urban",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 32.0
+    "height": 1,
+    "weight": 32,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
   },
   {
     "name": "Psyduck",
@@ -429,7 +482,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 19.6
+    "weight": 19.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
   },
   {
     "name": "Golduck",
@@ -437,7 +491,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 1.7,
-    "weight": 76.6
+    "weight": 76.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
   },
   {
     "name": "Mankey",
@@ -445,15 +500,17 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 28.0
+    "weight": 28,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
   },
   {
     "name": "Primeape",
     "type": ["Fighting"],
     "habitat": "Grassland",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 32.0
+    "height": 1,
+    "weight": 32,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
   },
   {
     "name": "Growlithe",
@@ -461,7 +518,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.7,
-    "weight": 19.0
+    "weight": 19,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
   },
   {
     "name": "Arcanine",
@@ -469,7 +527,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1.9,
-    "weight": 155.0
+    "weight": 155,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
   },
   {
     "name": "Poliwag",
@@ -477,15 +536,17 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 12.4
+    "weight": 12.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
   },
   {
     "name": "Poliwhirl",
     "type": ["Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 20.0
+    "height": 1,
+    "weight": 20,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
   },
   {
     "name": "Poliwrath",
@@ -493,7 +554,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 3,
     "height": 1.3,
-    "weight": 54.0
+    "weight": 54,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
   },
   {
     "name": "Abra",
@@ -501,7 +563,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.9,
-    "weight": 19.5
+    "weight": 19.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
   },
   {
     "name": "Kadabra",
@@ -509,7 +572,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 1.3,
-    "weight": 56.5
+    "weight": 56.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
   },
   {
     "name": "Alakazam",
@@ -517,7 +581,8 @@
     "habitat": "Urban",
     "evolutionStage": 3,
     "height": 1.5,
-    "weight": 48.0
+    "weight": 48,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
   },
   {
     "name": "Machop",
@@ -525,7 +590,8 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 19.5
+    "weight": 19.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
   },
   {
     "name": "Machoke",
@@ -533,7 +599,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.5,
-    "weight": 70.5
+    "weight": 70.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
   },
   {
     "name": "Machamp",
@@ -541,7 +608,8 @@
     "habitat": "Mountain",
     "evolutionStage": 3,
     "height": 1.6,
-    "weight": 130.0
+    "weight": 130,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
   },
   {
     "name": "Bellsprout",
@@ -549,15 +617,17 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.7,
-    "weight": 4.0
+    "weight": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
   },
   {
     "name": "Weepinbell",
     "type": ["Grass", "Poison"],
     "habitat": "Grassland",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 6.4
+    "height": 1,
+    "weight": 6.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
   },
   {
     "name": "Victreebel",
@@ -565,7 +635,8 @@
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.7,
-    "weight": 15.5
+    "weight": 15.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
   },
   {
     "name": "Tentacool",
@@ -573,7 +644,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.9,
-    "weight": 45.5
+    "weight": 45.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
   },
   {
     "name": "Tentacruel",
@@ -581,7 +653,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.6,
-    "weight": 55.0
+    "weight": 55,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
   },
   {
     "name": "Geodude",
@@ -589,15 +662,17 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 20.0
+    "weight": 20,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
   },
   {
     "name": "Graveler",
     "type": ["Rock", "Ground"],
     "habitat": "Mountain",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 105.0
+    "height": 1,
+    "weight": 105,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
   },
   {
     "name": "Golem",
@@ -605,15 +680,17 @@
     "habitat": "Mountain",
     "evolutionStage": 3,
     "height": 1.4,
-    "weight": 300.0
+    "weight": 300,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
   },
   {
     "name": "Ponyta",
     "type": ["Fire"],
     "habitat": "Grassland",
     "evolutionStage": 1,
-    "height": 1.0,
-    "weight": 30.0
+    "height": 1,
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
   },
   {
     "name": "Rapidash",
@@ -621,7 +698,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1.7,
-    "weight": 95.0
+    "weight": 95,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
   },
   {
     "name": "Slowpoke",
@@ -629,7 +707,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 1.2,
-    "weight": 36.0
+    "weight": 36,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
   },
   {
     "name": "Slowbro",
@@ -637,7 +716,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 1.6,
-    "weight": 78.5
+    "weight": 78.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
   },
   {
     "name": "Magnemite",
@@ -645,15 +725,17 @@
     "habitat": "Power Plant",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 6.0
+    "weight": 6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
   },
   {
     "name": "Magneton",
     "type": ["Electric", "Steel"],
     "habitat": "Power Plant",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 60.0
+    "height": 1,
+    "weight": 60,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
   },
   {
     "name": "Farfetch'd",
@@ -661,7 +743,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 15.0
+    "weight": 15,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
   },
   {
     "name": "Doduo",
@@ -669,7 +752,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 1.4,
-    "weight": 39.2
+    "weight": 39.2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
   },
   {
     "name": "Dodrio",
@@ -677,7 +761,8 @@
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1.8,
-    "weight": 85.2
+    "weight": 85.2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
   },
   {
     "name": "Seel",
@@ -685,7 +770,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 1.1,
-    "weight": 90.0
+    "weight": 90,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
   },
   {
     "name": "Dewgong",
@@ -693,7 +779,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.7,
-    "weight": 120.0
+    "weight": 120,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
   },
   {
     "name": "Grimer",
@@ -701,7 +788,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.9,
-    "weight": 30.0
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
   },
   {
     "name": "Muk",
@@ -709,7 +797,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 1.2,
-    "weight": 30.0
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
   },
   {
     "name": "Shellder",
@@ -717,7 +806,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 4.0
+    "weight": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
   },
   {
     "name": "Cloyster",
@@ -725,7 +815,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.5,
-    "weight": 132.5
+    "weight": 132.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
   },
   {
     "name": "Gastly",
@@ -733,7 +824,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 1.3,
-    "weight": 0.1
+    "weight": 0.1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
   },
   {
     "name": "Haunter",
@@ -741,7 +833,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 1.6,
-    "weight": 0.1
+    "weight": 0.1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
   },
   {
     "name": "Gengar",
@@ -749,7 +842,8 @@
     "habitat": "Urban",
     "evolutionStage": 3,
     "height": 1.5,
-    "weight": 40.5
+    "weight": 40.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
   },
   {
     "name": "Onix",
@@ -757,15 +851,17 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 8.8,
-    "weight": 210.0
+    "weight": 210,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
   },
   {
     "name": "Drowzee",
     "type": ["Psychic"],
     "habitat": "Urban",
     "evolutionStage": 1,
-    "height": 1.0,
-    "weight": 32.4
+    "height": 1,
+    "weight": 32.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
   },
   {
     "name": "Hypno",
@@ -773,7 +869,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 1.6,
-    "weight": 76.6
+    "weight": 76.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
   },
   {
     "name": "Krabby",
@@ -781,7 +878,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 6.5
+    "weight": 6.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
   },
   {
     "name": "Kingler",
@@ -789,7 +887,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.3,
-    "weight": 60.0
+    "weight": 60,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
   },
   {
     "name": "Voltorb",
@@ -797,7 +896,8 @@
     "habitat": "Power Plant",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 10.4
+    "weight": 10.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
   },
   {
     "name": "Electrode",
@@ -805,7 +905,8 @@
     "habitat": "Power Plant",
     "evolutionStage": 2,
     "height": 1.2,
-    "weight": 66.6
+    "weight": 66.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
   },
   {
     "name": "Exeggcute",
@@ -813,15 +914,17 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 2.5
+    "weight": 2.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
   },
   {
     "name": "Exeggutor",
     "type": ["Grass", "Psychic"],
     "habitat": "Forest",
     "evolutionStage": 2,
-    "height": 2.0,
-    "weight": 120.0
+    "height": 2,
+    "weight": 120,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
   },
   {
     "name": "Cubone",
@@ -829,15 +932,17 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 6.5
+    "weight": 6.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
   },
   {
     "name": "Marowak",
     "type": ["Ground"],
     "habitat": "Grassland",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 45.0
+    "height": 1,
+    "weight": 45,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
   },
   {
     "name": "Hitmonlee",
@@ -845,7 +950,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.5,
-    "weight": 49.8
+    "weight": 49.8,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
   },
   {
     "name": "Hitmonchan",
@@ -853,7 +959,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.4,
-    "weight": 50.2
+    "weight": 50.2,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
   },
   {
     "name": "Lickitung",
@@ -861,7 +968,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 1.2,
-    "weight": 65.5
+    "weight": 65.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
   },
   {
     "name": "Koffing",
@@ -869,7 +977,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 1.0
+    "weight": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
   },
   {
     "name": "Weezing",
@@ -877,15 +986,17 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 1.2,
-    "weight": 9.5
+    "weight": 9.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
   },
   {
     "name": "Rhyhorn",
     "type": ["Ground", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 1,
-    "height": 1.0,
-    "weight": 115.0
+    "height": 1,
+    "weight": 115,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
   },
   {
     "name": "Rhydon",
@@ -893,7 +1004,8 @@
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1.9,
-    "weight": 120.0
+    "weight": 120,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
   },
   {
     "name": "Chansey",
@@ -901,15 +1013,17 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 1.1,
-    "weight": 34.6
+    "weight": 34.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
   },
   {
     "name": "Tangela",
     "type": ["Grass"],
     "habitat": "Forest",
     "evolutionStage": 1,
-    "height": 1.0,
-    "weight": 35.0
+    "height": 1,
+    "weight": 35,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
   },
   {
     "name": "Kangaskhan",
@@ -917,7 +1031,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 2.2,
-    "weight": 80.0
+    "weight": 80,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
   },
   {
     "name": "Horsea",
@@ -925,7 +1040,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 8.0
+    "weight": 8,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
   },
   {
     "name": "Seadra",
@@ -933,7 +1049,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.2,
-    "weight": 25.0
+    "weight": 25,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
   },
   {
     "name": "Goldeen",
@@ -941,7 +1058,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 0.6,
-    "weight": 15.0
+    "weight": 15,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
   },
   {
     "name": "Seaking",
@@ -949,7 +1067,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 1.3,
-    "weight": 39.0
+    "weight": 39,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
   },
   {
     "name": "Staryu",
@@ -957,7 +1076,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 34.5
+    "weight": 34.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
   },
   {
     "name": "Starmie",
@@ -965,7 +1085,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.1,
-    "weight": 80.0
+    "weight": 80,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
   },
   {
     "name": "Mr. Mime",
@@ -973,7 +1094,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 1.3,
-    "weight": 54.5
+    "weight": 54.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
   },
   {
     "name": "Scyther",
@@ -981,7 +1103,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 1.5,
-    "weight": 56.0
+    "weight": 56,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
   },
   {
     "name": "Jynx",
@@ -989,7 +1112,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 1.4,
-    "weight": 40.6
+    "weight": 40.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
   },
   {
     "name": "Electabuzz",
@@ -997,7 +1121,8 @@
     "habitat": "Power Plant",
     "evolutionStage": 1,
     "height": 1.1,
-    "weight": 30.0
+    "weight": 30,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
   },
   {
     "name": "Magmar",
@@ -1005,7 +1130,8 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 1.3,
-    "weight": 44.5
+    "weight": 44.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
   },
   {
     "name": "Pinsir",
@@ -1013,7 +1139,8 @@
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 1.5,
-    "weight": 55.0
+    "weight": 55,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
   },
   {
     "name": "Tauros",
@@ -1021,7 +1148,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 1.4,
-    "weight": 88.4
+    "weight": 88.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
   },
   {
     "name": "Magikarp",
@@ -1029,7 +1157,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 0.9,
-    "weight": 10.0
+    "weight": 10,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
   },
   {
     "name": "Gyarados",
@@ -1037,7 +1166,8 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 6.5,
-    "weight": 235.0
+    "weight": 235,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
   },
   {
     "name": "Lapras",
@@ -1045,7 +1175,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 2.5,
-    "weight": 220.0
+    "weight": 220,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
   },
   {
     "name": "Ditto",
@@ -1053,7 +1184,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 4.0
+    "weight": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
   },
   {
     "name": "Eevee",
@@ -1061,15 +1193,17 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.3,
-    "weight": 6.5
+    "weight": 6.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
   },
   {
     "name": "Vaporeon",
     "type": ["Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 29.0
+    "height": 1,
+    "weight": 29,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
   },
   {
     "name": "Jolteon",
@@ -1077,7 +1211,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 0.8,
-    "weight": 24.5
+    "weight": 24.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
   },
   {
     "name": "Flareon",
@@ -1085,7 +1220,8 @@
     "habitat": "Urban",
     "evolutionStage": 2,
     "height": 0.9,
-    "weight": 25.0
+    "weight": 25,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
   },
   {
     "name": "Porygon",
@@ -1093,7 +1229,8 @@
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 0.8,
-    "weight": 36.5
+    "weight": 36.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
   },
   {
     "name": "Omanyte",
@@ -1101,15 +1238,17 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 7.5
+    "weight": 7.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
   },
   {
     "name": "Omastar",
     "type": ["Rock", "Water"],
     "habitat": "Sea",
     "evolutionStage": 2,
-    "height": 1.0,
-    "weight": 35.0
+    "height": 1,
+    "weight": 35,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
   },
   {
     "name": "Kabuto",
@@ -1117,7 +1256,8 @@
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.5,
-    "weight": 11.5
+    "weight": 11.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
   },
   {
     "name": "Kabutops",
@@ -1125,7 +1265,8 @@
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.3,
-    "weight": 40.5
+    "weight": 40.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
   },
   {
     "name": "Aerodactyl",
@@ -1133,7 +1274,8 @@
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 1.8,
-    "weight": 59.0
+    "weight": 59,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
   },
   {
     "name": "Snorlax",
@@ -1141,7 +1283,8 @@
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 2.1,
-    "weight": 460.0
+    "weight": 460,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
   },
   {
     "name": "Articuno",
@@ -1149,7 +1292,8 @@
     "habitat": "Legendary",
     "evolutionStage": 1,
     "height": 1.7,
-    "weight": 55.4
+    "weight": 55.4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
   },
   {
     "name": "Zapdos",
@@ -1157,15 +1301,17 @@
     "habitat": "Legendary",
     "evolutionStage": 1,
     "height": 1.6,
-    "weight": 52.6
+    "weight": 52.6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
   },
   {
     "name": "Moltres",
     "type": ["Fire", "Flying"],
     "habitat": "Legendary",
     "evolutionStage": 1,
-    "height": 2.0,
-    "weight": 60.0
+    "height": 2,
+    "weight": 60,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
   },
   {
     "name": "Dratini",
@@ -1173,15 +1319,17 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 1.8,
-    "weight": 3.3
+    "weight": 3.3,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
   },
   {
     "name": "Dragonair",
     "type": ["Dragon"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
-    "height": 4.0,
-    "weight": 16.5
+    "height": 4,
+    "weight": 16.5,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
   },
   {
     "name": "Dragonite",
@@ -1189,15 +1337,17 @@
     "habitat": "Waters-Edge",
     "evolutionStage": 3,
     "height": 2.2,
-    "weight": 210.0
+    "weight": 210,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
   },
   {
     "name": "Mewtwo",
     "type": ["Psychic"],
     "habitat": "Legendary",
     "evolutionStage": 1,
-    "height": 2.0,
-    "weight": 122.0
+    "height": 2,
+    "weight": 122,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
   },
   {
     "name": "Mew",
@@ -1205,6 +1355,7 @@
     "habitat": "Legendary",
     "evolutionStage": 1,
     "height": 0.4,
-    "weight": 4.0
+    "weight": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
   }
 ]

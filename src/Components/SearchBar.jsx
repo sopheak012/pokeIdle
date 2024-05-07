@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addGuessedPokemon } from "../Redux/Slices/pokemonSlice";
 import PokemonData from "../data/gen1.json";
 
@@ -9,6 +9,7 @@ const SearchBar = () => {
   const [invalidInput, setInvalidInput] = useState(false); // State for invalid input
   const searchBarRef = useRef(null);
   const dispatch = useDispatch();
+  const guessedPokemon = useSelector((state) => state.pokemon.guessedPokemon);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -27,24 +28,22 @@ const SearchBar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const filteredSuggestions = PokemonData.filter((pokemon) =>
+      pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
+    ).filter(
+      (pokemon) =>
+        !guessedPokemon.some(
+          (guess) => guess.toLowerCase() === pokemon.name.toLowerCase()
+        )
+    );
+
+    setSuggestions(filteredSuggestions);
+  }, [searchTerm, guessedPokemon]);
+
   const handleChange = (event) => {
     const { value } = event.target;
     setSearchTerm(value);
-
-    // Filter suggestions based on the current search term
-    const filteredSuggestions = PokemonData.filter((pokemon) =>
-      pokemon.name.toLowerCase().includes(value.toLowerCase())
-    );
-
-    // Remove duplicates from suggestions
-    const uniqueSuggestions = filteredSuggestions.filter(
-      (pokemon, index) =>
-        filteredSuggestions.findIndex((p) => p.name === pokemon.name) === index
-    );
-
-    setSuggestions(uniqueSuggestions);
-
-    // Reset invalid input state when user types
     setInvalidInput(false);
   };
 
@@ -56,25 +55,30 @@ const SearchBar = () => {
   const handleGuess = (event) => {
     event.preventDefault();
     if (searchTerm) {
-      // Check if the entered value matches any Pokémon name
       const isValidPokemon = PokemonData.some(
         (pokemon) => pokemon.name.toLowerCase() === searchTerm.toLowerCase()
       );
 
-      if (isValidPokemon) {
+      const isAlreadyGuessed = guessedPokemon.some(
+        (guessed) => guessed.toLowerCase() === searchTerm.toLowerCase()
+      );
+
+      if (isValidPokemon && !isAlreadyGuessed) {
         dispatch(addGuessedPokemon(searchTerm));
         setSearchTerm("");
+      } else if (isAlreadyGuessed) {
+        setInvalidInput(true);
+        setSearchTerm("");
       } else {
-        // Display an error message or handle invalid input
-        setInvalidInput(true); // Set invalid input state to true
-        setSearchTerm(""); // Clear search term
+        setInvalidInput(true);
+        setSearchTerm("");
       }
     }
   };
 
   return (
     <form className="max-w-md mx-auto pt-64" onSubmit={handleGuess}>
-      {invalidInput && ( // Conditional rendering for invalid input message
+      {invalidInput && (
         <p className="text-red-500 mb-2 text-sm text-center">
           Invalid Pokémon name
         </p>

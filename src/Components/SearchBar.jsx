@@ -115,7 +115,7 @@ const SearchBar = () => {
           value={searchTerm}
           onChange={handleChange}
         />
-        {suggestions.length > 0 && (
+        {suggestions.length > 0 && searchTerm !== "" && (
           <div className="absolute z-10 w-full mt-1 max-h-48 overflow-y-auto bg-white rounded-lg border border-gray-300 shadow-md">
             <ul>
               {suggestions.map((suggestion, index) => (

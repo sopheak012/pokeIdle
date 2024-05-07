@@ -28,7 +28,10 @@ const HintBar = () => {
     .reverse();
 
   return (
-    <div className="mt-4 p-4 bg-white border border-gray-300 rounded-lg shadow-md">
+    <div
+      className="mx-auto mt-4 p-4 bg-white border border-gray-300 rounded-lg shadow-md"
+      style={{ minWidth: "800px", maxWidth: "800px" }}
+    >
       <div
         className="grid grid-cols-7 gap-4 mb-2"
         style={{ width: "100%", height: "auto", gridAutoRows: "60px" }}
@@ -117,7 +120,7 @@ const HintBar = () => {
               randomPokemon.height
             )}`}
           >
-            {guessedPokemon.height}
+            {`${guessedPokemon.height}cm`}
           </div>
           <div
             className={`flex items-center justify-center border-4 border-black ${compareAttributes(
@@ -125,7 +128,7 @@ const HintBar = () => {
               randomPokemon.weight
             )}`}
           >
-            {guessedPokemon.weight}
+            {`${guessedPokemon.weight}kg`}
           </div>
         </div>
       ))}

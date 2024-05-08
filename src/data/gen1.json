@@ -136,7 +136,7 @@
   },
   {
     "name": "Pidgey",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
@@ -145,7 +145,7 @@
   },
   {
     "name": "Pidgeotto",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 1.1,
@@ -154,7 +154,7 @@
   },
   {
     "name": "Pidgeot",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Forest",
     "evolutionStage": 3,
     "height": 1.5,
@@ -181,7 +181,7 @@
   },
   {
     "name": "Spearow",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Forest",
     "evolutionStage": 1,
     "height": 0.3,
@@ -190,7 +190,7 @@
   },
   {
     "name": "Fearow",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Forest",
     "evolutionStage": 2,
     "height": 1.2,
@@ -271,7 +271,7 @@
   },
   {
     "name": "Nidoqueen",
-    "type": ["Poison", "Ground"],
+    "type": ["Ground", "Poison"],
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.3,
@@ -298,7 +298,7 @@
   },
   {
     "name": "Nidoking",
-    "type": ["Poison", "Ground"],
+    "type": ["Ground", "Poison"],
     "habitat": "Grassland",
     "evolutionStage": 3,
     "height": 1.4,
@@ -343,7 +343,7 @@
   },
   {
     "name": "Jigglypuff",
-    "type": ["Normal", "Fairy"],
+    "type": ["Fairy", "Normal"],
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.5,
@@ -352,7 +352,7 @@
   },
   {
     "name": "Wigglytuff",
-    "type": ["Normal", "Fairy"],
+    "type": ["Fairy", "Normal"],
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1,
@@ -361,7 +361,7 @@
   },
   {
     "name": "Zubat",
-    "type": ["Poison", "Flying"],
+    "type": ["Flying", "Poison"],
     "habitat": "Cave",
     "evolutionStage": 1,
     "height": 0.8,
@@ -370,7 +370,7 @@
   },
   {
     "name": "Golbat",
-    "type": ["Poison", "Flying"],
+    "type": ["Flying", "Poison"],
     "habitat": "Cave",
     "evolutionStage": 2,
     "height": 1.6,
@@ -550,7 +550,7 @@
   },
   {
     "name": "Poliwrath",
-    "type": ["Water", "Fighting"],
+    "type": ["Fighting", "Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 3,
     "height": 1.3,
@@ -640,7 +640,7 @@
   },
   {
     "name": "Tentacool",
-    "type": ["Water", "Poison"],
+    "type": ["Poison", "Water"],
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 0.9,
@@ -649,7 +649,7 @@
   },
   {
     "name": "Tentacruel",
-    "type": ["Water", "Poison"],
+    "type": ["Poison", "Water"],
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.6,
@@ -658,7 +658,7 @@
   },
   {
     "name": "Geodude",
-    "type": ["Rock", "Ground"],
+    "type": ["Ground", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 0.4,
@@ -667,7 +667,7 @@
   },
   {
     "name": "Graveler",
-    "type": ["Rock", "Ground"],
+    "type": ["Ground", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 2,
     "height": 1,
@@ -676,7 +676,7 @@
   },
   {
     "name": "Golem",
-    "type": ["Rock", "Ground"],
+    "type": ["Ground", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 3,
     "height": 1.4,
@@ -703,7 +703,7 @@
   },
   {
     "name": "Slowpoke",
-    "type": ["Water", "Psychic"],
+    "type": ["Psychic", "Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 1,
     "height": 1.2,
@@ -712,7 +712,7 @@
   },
   {
     "name": "Slowbro",
-    "type": ["Water", "Psychic"],
+    "type": ["Psychic", "Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 1.6,
@@ -739,7 +739,7 @@
   },
   {
     "name": "Farfetch'd",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 0.8,
@@ -748,7 +748,7 @@
   },
   {
     "name": "Doduo",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Grassland",
     "evolutionStage": 1,
     "height": 1.4,
@@ -757,7 +757,7 @@
   },
   {
     "name": "Dodrio",
-    "type": ["Normal", "Flying"],
+    "type": ["Flying", "Normal"],
     "habitat": "Grassland",
     "evolutionStage": 2,
     "height": 1.8,
@@ -775,7 +775,7 @@
   },
   {
     "name": "Dewgong",
-    "type": ["Water", "Ice"],
+    "type": ["Ice", "Water"],
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.7,
@@ -811,7 +811,7 @@
   },
   {
     "name": "Cloyster",
-    "type": ["Water", "Ice"],
+    "type": ["Ice", "Water"],
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.5,
@@ -847,7 +847,7 @@
   },
   {
     "name": "Onix",
-    "type": ["Rock", "Ground"],
+    "type": ["Ground", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 8.8,
@@ -1081,7 +1081,7 @@
   },
   {
     "name": "Starmie",
-    "type": ["Water", "Psychic"],
+    "type": ["Psychic", "Water"],
     "habitat": "Sea",
     "evolutionStage": 2,
     "height": 1.1,
@@ -1090,7 +1090,7 @@
   },
   {
     "name": "Mr. Mime",
-    "type": ["Psychic", "Fairy"],
+    "type": ["Fairy", "Psychic"],
     "habitat": "Urban",
     "evolutionStage": 1,
     "height": 1.3,
@@ -1162,7 +1162,7 @@
   },
   {
     "name": "Gyarados",
-    "type": ["Water", "Flying"],
+    "type": ["Flying", "Water"],
     "habitat": "Waters-Edge",
     "evolutionStage": 2,
     "height": 6.5,
@@ -1171,7 +1171,7 @@
   },
   {
     "name": "Lapras",
-    "type": ["Water", "Ice"],
+    "type": ["Ice", "Water"],
     "habitat": "Sea",
     "evolutionStage": 1,
     "height": 2.5,
@@ -1270,7 +1270,7 @@
   },
   {
     "name": "Aerodactyl",
-    "type": ["Rock", "Flying"],
+    "type": ["Flying", "Rock"],
     "habitat": "Mountain",
     "evolutionStage": 1,
     "height": 1.8,
@@ -1288,7 +1288,7 @@
   },
   {
     "name": "Articuno",
-    "type": ["Ice", "Flying"],
+    "type": ["Flying", "Ice"],
     "habitat": "Legendary",
     "evolutionStage": 1,
     "height": 1.7,

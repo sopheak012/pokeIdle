@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   randomPokemon: null,
   guessedPokemon: [],
+  isGameWon: false, // New state variable
 };
 
 export const pokemonSlice = createSlice({
@@ -18,11 +19,24 @@ export const pokemonSlice = createSlice({
     resetGuessedPokemon: (state) => {
       state.guessedPokemon = [];
     },
+    resetGame: (state) => {
+      state.randomPokemon = null;
+      state.guessedPokemon = [];
+      state.isGameWon = false; // Reset isGameWon when resetting the game
+    },
+    setGameWon: (state, action) => {
+      state.isGameWon = action.payload; // Set the value of isGameWon
+    },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { setRandomPokemon, addGuessedPokemon, resetGuessedPokemon } =
-  pokemonSlice.actions;
+export const {
+  setRandomPokemon,
+  addGuessedPokemon,
+  resetGuessedPokemon,
+  resetGame,
+  setGameWon,
+} = pokemonSlice.actions;
 
 export default pokemonSlice.reducer;

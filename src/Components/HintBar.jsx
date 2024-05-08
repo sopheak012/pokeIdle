@@ -1,31 +1,38 @@
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import PokemonData from "../data/gen1.json";
+import ConfettiExplosion from "react-confetti-explosion";
 
 const HintBar = () => {
-  // Retrieve guessed Pokémon names from Redux store
   const guessedPokemonNames = useSelector(
     (state) => state.pokemon.guessedPokemon
   );
-
-  // Retrieve random Pokémon name from Redux store
   const randomPokemonName = useSelector((state) => state.pokemon.randomPokemon);
-
-  // Find random Pokémon data from PokemonData
   const randomPokemon = PokemonData.find(
     (pokemon) => pokemon.name === randomPokemonName
   );
 
-  // Function to compare attributes and determine color
   const compareAttributes = (guessedValue, randomValue) => {
+    console.log(`Guessed Value: ${guessedValue}`);
+    console.log(`Random Value: ${randomValue}`);
     return guessedValue === randomValue ? "bg-green-300" : "bg-red-300";
   };
 
-  // Get guessed Pokémon data and reverse the order to display the latest on top
   const guessedPokemonData = guessedPokemonNames
     .map((guessedPokemonName) =>
       PokemonData.find((pokemon) => pokemon.name === guessedPokemonName)
     )
     .reverse();
+
+  const [isCorrectGuess, setIsCorrectGuess] = useState(false);
+
+  useEffect(() => {
+    if (randomPokemon && guessedPokemonNames.includes(randomPokemon.name)) {
+      setIsCorrectGuess(true);
+    } else {
+      setIsCorrectGuess(false);
+    }
+  }, [randomPokemon, guessedPokemonNames]);
 
   return (
     <div
@@ -58,6 +65,11 @@ const HintBar = () => {
           Weight
         </div>
       </div>
+      {isCorrectGuess && (
+        <div className="fixed inset-0 flex items-center justify-center">
+          <ConfettiExplosion />
+        </div>
+      )}
 
       {guessedPokemonData.map((guessedPokemon, index) => (
         <div

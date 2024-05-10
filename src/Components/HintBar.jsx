@@ -13,18 +13,21 @@ const HintBar = () => {
   );
 
   const compareAttributes = (guessedValue, randomValue) => {
-    console.log(`Guessed Value: ${guessedValue}`);
-    console.log(`Random Value: ${randomValue}`);
     return guessedValue === randomValue ? "bg-green-300" : "bg-red-300";
   };
 
   const compareType = (guessedType) => {
+    if (!guessedType) {
+      guessedType = "None"; // If guessedType is undefined, set it to "None"
+    }
+
     const typeSet = new Set(randomPokemon.type);
+
     if (typeSet.has(guessedType)) {
       return "bg-green-300";
     } else if (typeSet.size === 1 && guessedType === "None") {
       return "bg-green-300";
-    } else if (guessedType === "None" && typeSet.size > 1) {
+    } else if (guessedType === "None" && typeSet.size === 2) {
       return "bg-red-300";
     } else {
       return "bg-red-300";
@@ -107,11 +110,9 @@ const HintBar = () => {
             {guessedPokemon.type[0]}
           </div>
           <div
-            className={`flex items-center justify-center border-4 border-black ${
-              guessedPokemon.type.length > 1
-                ? compareType(guessedPokemon.type[1])
-                : "bg-green-300"
-            }`}
+            className={`flex items-center justify-center border-4 border-black ${compareType(
+              guessedPokemon.type[1]
+            )}`}
           >
             {guessedPokemon.type.length > 1 ? guessedPokemon.type[1] : "None"}
           </div>

@@ -25,6 +25,10 @@ const RandomPokemon = () => {
     dispatch(setRandomPokemon(newRandomPokemon));
   };
 
+  const handleNewGame = () => {
+    // Add your new game functionality here
+  };
+
   return (
     <div className="max-w-md mx-auto pt-64 text-center">
       <h1 className="text-2xl font-bold mb-4">Random Pokemon</h1>
@@ -37,6 +41,13 @@ const RandomPokemon = () => {
           ))}
         </ul>
       </div>
+      <button
+        type="button"
+        className="bg-blue-700 hover:bg-blue-800 text-white font-bold p-2 rounded mt-4"
+        onClick={handleNewGame}
+      >
+        New Game
+      </button>
     </div>
   );
 };

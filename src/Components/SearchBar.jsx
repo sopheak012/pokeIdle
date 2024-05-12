@@ -1,11 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addGuessedPokemon,
   setGameWon,
   resetGame,
+  setRandomPokemon, // Import setRandomPokemon action creator
 } from "../Redux/Slices/pokemonSlice";
 import PokemonData from "../data/gen1.json";
+import Random from "random"; // Import Random module for generating random numbers
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -14,7 +16,14 @@ const SearchBar = () => {
   const searchBarRef = useRef(null);
   const dispatch = useDispatch();
   const guessedPokemon = useSelector((state) => state.pokemon.guessedPokemon);
-  const isGameWon = useSelector((state) => state.pokemon.isGameWon);
+  const randomPokemonName = useSelector((state) => state.pokemon.randomPokemon); // Get the random Pokémon name from the Redux state
+
+  useEffect(() => {
+    // Generate a random Pokémon if it hasn't been set yet
+    if (!randomPokemonName) {
+      generateRandomPokemon();
+    }
+  }, [randomPokemonName]); // Run this effect when the randomPokemonName changes
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -72,7 +81,7 @@ const SearchBar = () => {
         dispatch(addGuessedPokemon(searchTerm));
         setSearchTerm("");
 
-        // Check if all Pokemon have been guessed
+        // Check if all Pokémon have been guessed
         const allPokemonGuessed = PokemonData.every((pokemon) =>
           guessedPokemon.includes(pokemon.name)
         );
@@ -94,6 +103,13 @@ const SearchBar = () => {
     dispatch(resetGame());
   };
 
+  const generateRandomPokemon = () => {
+    // Generate a random Pokémon
+    const randomIndex = Random.int(0, PokemonData.length - 1);
+    const randomPokemon = PokemonData[randomIndex].name;
+    dispatch(setRandomPokemon(randomPokemon)); // Dispatch action to store the random Pokémon in the Redux state
+  };
+
   return (
     <div className="max-w-md mx-auto pt-64 flex">
       <form className="relative flex-grow" onSubmit={handleGuess}>
@@ -109,23 +125,6 @@ const SearchBar = () => {
           Guess
         </label>
         <div ref={searchBarRef} className="relative">
-          <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-            <svg
-              className="w-4 h-4 text-gray-500 dark:text-gray-400"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 20 20"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-              />
-            </svg>
-          </div>
           <input
             type="text"
             id="default-guess"

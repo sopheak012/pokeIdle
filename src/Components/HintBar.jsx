@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import PokemonData from "../data/gen1.json";
 import ConfettiExplosion from "react-confetti-explosion";
+import { setGameWon } from "../Redux/Slices/pokemonSlice";
 
 const HintBar = () => {
+  const dispatch = useDispatch();
   const guessedPokemonNames = useSelector(
     (state) => state.pokemon.guessedPokemon
   );
@@ -44,6 +46,7 @@ const HintBar = () => {
 
   useEffect(() => {
     if (randomPokemon && guessedPokemonNames.includes(randomPokemon.name)) {
+      dispatch(setGameWon(true));
       setIsCorrectGuess(true);
     } else {
       setIsCorrectGuess(false);
@@ -83,7 +86,14 @@ const HintBar = () => {
           </div>
         </div>
         {isCorrectGuess && (
-          <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
+          <div
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}
+          >
             <ConfettiExplosion />
           </div>
         )}

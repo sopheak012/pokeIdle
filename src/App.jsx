@@ -7,7 +7,8 @@ function App() {
     <>
       <SearchBar />
       <HintBar />
-      <RandomPokemon />
+
+      {/* <RandomPokemon /> */}
     </>
   );
 }

@@ -53,115 +53,110 @@ const HintBar = () => {
     }
   }, [randomPokemon, guessedPokemonNames]);
 
+  if (guessedPokemonNames.length === 0) {
+    return null; // Don't render the HintBar if no Pokémon has been guessed yet
+  }
+
   return (
-    <div style={{ position: "relative" }}>
+    <div
+      className="mx-auto mt-4 p-4 bg-white border border-gray-300 rounded-lg shadow-md"
+      style={{ minWidth: "800px", maxWidth: "800px" }}
+    >
       <div
-        className="mx-auto mt-4 p-4 bg-white border border-gray-300 rounded-lg shadow-md"
-        style={{ minWidth: "800px", maxWidth: "800px" }}
+        className="grid grid-cols-7 gap-4 mb-2"
+        style={{ width: "100%", height: "auto", gridAutoRows: "60px" }}
       >
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Pokemon
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Type 1
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Type 2
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Habitat
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Evolution Stage
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Height
+        </div>
+        <div className="font-semibold flex items-center justify-center border-b-4 border-black">
+          Weight
+        </div>
+      </div>
+      {isCorrectGuess && (
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <ConfettiExplosion />
+        </div>
+      )}
+
+      {guessedPokemonData.map((guessedPokemon, index) => (
         <div
+          key={index}
           className="grid grid-cols-7 gap-4 mb-2"
-          style={{ width: "100%", height: "auto", gridAutoRows: "60px" }}
+          style={{ width: "100%", height: "auto", gridAutoRows: "100px" }}
         >
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Pokemon
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareAttributes(
+              guessedPokemon.name,
+              randomPokemon.name
+            )}`}
+          >
+            <img src={guessedPokemon.image} alt={guessedPokemon.name} />
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Type 1
+
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareType(
+              guessedPokemon.type[0]
+            )}`}
+          >
+            {guessedPokemon.type[0]}
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Type 2
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareType(
+              guessedPokemon.type[1]
+            )}`}
+          >
+            {guessedPokemon.type.length > 1 ? guessedPokemon.type[1] : "None"}
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Habitat
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareAttributes(
+              guessedPokemon.habitat,
+              randomPokemon.habitat
+            )}`}
+          >
+            {guessedPokemon.habitat}
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Evolution Stage
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareAttributes(
+              guessedPokemon.evolutionStage,
+              randomPokemon.evolutionStage
+            )}`}
+          >
+            {guessedPokemon.evolutionStage}
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Height
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareAttributes(
+              guessedPokemon.height,
+              randomPokemon.height
+            )}`}
+          >
+            {`${guessedPokemon.height}cm`}
           </div>
-          <div className="font-semibold flex items-center justify-center border-b-4 border-black">
-            Weight
+          <div
+            className={`flex items-center justify-center border-4 border-black ${compareAttributes(
+              guessedPokemon.weight,
+              randomPokemon.weight
+            )}`}
+          >
+            {`${guessedPokemon.weight}kg`}
           </div>
         </div>
-        {isCorrectGuess && (
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-            }}
-          >
-            <ConfettiExplosion />
-          </div>
-        )}
-
-        {guessedPokemonData.map((guessedPokemon, index) => (
-          <div
-            key={index}
-            className="grid grid-cols-7 gap-4 mb-2"
-            style={{ width: "100%", height: "auto", gridAutoRows: "100px" }}
-          >
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareAttributes(
-                guessedPokemon.name,
-                randomPokemon.name
-              )}`}
-            >
-              <img src={guessedPokemon.image} alt={guessedPokemon.name} />
-            </div>
-
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareType(
-                guessedPokemon.type[0]
-              )}`}
-            >
-              {guessedPokemon.type[0]}
-            </div>
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareType(
-                guessedPokemon.type[1]
-              )}`}
-            >
-              {guessedPokemon.type.length > 1 ? guessedPokemon.type[1] : "None"}
-            </div>
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareAttributes(
-                guessedPokemon.habitat,
-                randomPokemon.habitat
-              )}`}
-            >
-              {guessedPokemon.habitat}
-            </div>
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareAttributes(
-                guessedPokemon.evolutionStage,
-                randomPokemon.evolutionStage
-              )}`}
-            >
-              {guessedPokemon.evolutionStage}
-            </div>
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareAttributes(
-                guessedPokemon.height,
-                randomPokemon.height
-              )}`}
-            >
-              {`${guessedPokemon.height}cm`}
-            </div>
-            <div
-              className={`flex items-center justify-center border-4 border-black ${compareAttributes(
-                guessedPokemon.weight,
-                randomPokemon.weight
-              )}`}
-            >
-              {`${guessedPokemon.weight}kg`}
-            </div>
-          </div>
-        ))}
-      </div>
+      ))}
     </div>
   );
 };

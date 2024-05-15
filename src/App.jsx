@@ -1,5 +1,6 @@
+import "./App.css"; // Import the CSS file
+
 import HintBar from "./Components/HintBar";
-import RandomPokemon from "./Components/RandomPokemon";
 import SearchBar from "./Components/SearchBar";
 
 function App() {
@@ -7,8 +8,6 @@ function App() {
     <>
       <SearchBar />
       <HintBar />
-
-      {/* <RandomPokemon /> */}
     </>
   );
 }

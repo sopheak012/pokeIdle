@@ -93,18 +93,11 @@ const SearchBar = () => {
     <div className="max-w-md mx-auto pt-16">
       <img src={logo} alt="Logo" className="mb-8" />
       <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-        {" "}
-        {/* Flex container for search bar and buttons */}
         <form className="relative flex-grow flex" onSubmit={handleGuess}>
-          {invalidInput && (
-            <p className="text-red-500 mb-2 text-sm text-center">
-              Invalid Pokémon name
-            </p>
-          )}
-          <label htmlFor="default-guess" className="sr-only">
-            Guess
-          </label>
           <div ref={searchBarRef} className="relative flex-grow">
+            {invalidInput && (
+              <p className="text-red-500 mb-2 text-sm">Invalid Pokémon name</p>
+            )}
             <input
               type="text"
               id="default-guess"
